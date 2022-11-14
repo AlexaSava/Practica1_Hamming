@@ -19,6 +19,20 @@ public class Practica1 {
             System.out.print(Codigo[Tamaño - k - 1]);
         }
 
-    }
+        int Referencia = 100;
+        String B;
+        int Paridades;
+        int Total;
 
+        B = Integer.toBinaryString(Referencia);
+        Paridades = B.length();
+        Paridades = Paridades + Referencia;
+        B = Integer.toBinaryString(Paridades);
+        Paridades = B.length() + 1;
+        System.out.println(Paridades);
+        Total = Paridades + Referencia;
+        System.out.println(Total);
+
+   
+    }
 }
